@@ -34,7 +34,7 @@ end
 
 #merge_data
 def merge_data(keys, data)
- merge
+ merge1 = merge!.keys[
 end
 
 #find_cool
