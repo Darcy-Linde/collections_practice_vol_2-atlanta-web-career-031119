@@ -34,7 +34,7 @@ end
 
 #merge_data
 def merge_data(keys, data)
- merge1 = merge!.keys[
+ merge1 = keys.each_with_index do |
 end
 
 #find_cool
