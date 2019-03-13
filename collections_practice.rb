@@ -36,7 +36,7 @@ end
 def merge_data(keys, data)
  new_array = []
  keys.each_with_index do |val, index|
-   name = val[index]
+   name = keys[index][:first_name]
    new_array << val.merge(data[0][name])
  end
  new_array
