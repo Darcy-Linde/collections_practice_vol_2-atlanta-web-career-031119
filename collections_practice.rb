@@ -38,6 +38,7 @@ def merge_data(keys, data)
  keys.each_with_index do |val, index|
    new_array << val.merge(data[index].value)
  end
+ new_array
 end
 
 #find_cool
