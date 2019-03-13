@@ -34,7 +34,10 @@ end
 
 #merge_data
 def merge_data(keys, data)
- merge1 = keys.each_with_index do |
+ new_array = []
+ keys.each_with_index do |val, index|
+   
+ end
 end
 
 #find_cool
